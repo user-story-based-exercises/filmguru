@@ -6,7 +6,7 @@ SEW | CORE | Filmguru
 ### Acceptance Criteria
 - An app for searching the Open Movie Database (http://www.omdbapi.com/) is available.
 - A field for entering a search term is available.
-- A search is only possible if the search term is longer than three characters.
+- A search is only possible if the search term is longer than three characters. [Debounce](https://stackoverflow.com/a/53486112) the input.
 - Once a string is entered in the search field, a search request to the API of the Open Movie Database is sent.
 - The results are displayed as a list, showing the cover art, the title, and a description of the entry.
 
